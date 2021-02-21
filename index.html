@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- 
+    Authors: Jonathan Williams, Tommy Lim, Xiaoli Gong, Tam
+    Team FTP (Group #13)
+    Webprogramming Spring 2021
+    Project 1: CSS 
+ -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Trivia Game!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!--TODO: Realign Trivia text to center of spinning square: SOS pls help-->
+        <div id="background">
+            <img src="./2000.jpg" alt="open theater-curtains">
+        </div>
+<!--Banner Divs-->
+        <div id = "bannerBackground">
+            <div id = "headerMaster">
+                <div id="g" class = "triviaTitle">
+                    <span class = "triviaText">T</span>
+                </div>
+                <div id="pr" class= "triviaTitle ">
+                    <span class = "triviaText">R</span>
+                </div>
+                <div id="rp" class = "triviaTitle">
+                    <span class = "triviaText">I</span>
+                </div>
+                <div id="b2" class = "triviaTitle">
+                    <span class = "triviaText">V</span>
+                </div>
+                    <div id="oj" class = "triviaTitle">
+                    <span class = "triviaText">I</span>
+                </div>
+                <div id="teal" class = "triviaTitle">
+                    <span class = "triviaText">A</span>
+                </div>
+            </div>
+            <div class = "clearDiv"></div>
+        </div>
+
+<!--Trivia Interface-->
+<!-- TODO: Try to have the fade in/out process of answer/question be smoother.
+     Too jarring and abrupt rightnow -->
+        <div id = "cardMaster">
+            <div class = "cardSection">
+                    <div class = "topCard">
+                        <span class = "question"> How many soccer players should each team have on the field at the start of each match?<br>
+                        </span>
+                        <span class="answer">There are 11 players, but be careful about those red cards, or you'll see that number reduce!</span>
+                    </div>
+                    <div class = "topCard">
+                        <span class = "question"> When Michael Jordan played for the Chicago Bulls, how many NBA Championships did he win?</span>
+                        <span class="answer"> 6! <br>Great basketball player, not so great baseball player.</span>
+                    </div>
+                    <div class = "topCard">
+                        <span class = "question"> Which Williams sister has won more Grand Slam titles?</span>
+                        <span class="answer">Serena Williams!</span>
+                    </div>                                                           
+            </div>
+            <div class = "cardSection">
+                    <div class = "topCard">
+                        <span class = "question"> What country won the very first FIFA World Cup in 1930?</span>
+                        <span class="answer">Uruguay, a perenial competitor in world football, despite being a small country globally.</span>
+                    </div>
+                    <div class = "topCard">
+                        <span class = "question"> In what year was the first-ever Wimbledon Championship held?</span>
+                        <span class="answer">1877. Maybe there's pictures, this is also the same year Edison invented the photograph.</span>
+                    </div>
+                    <div class = "topCard">
+                        <span class = "question">Which racer holds the record for the most Grand Prix wins? </span>
+                        <span class="answer"> Michael Schumacher </span>
+                    </div>                                                           
+            </div>
+            <div class = "cardSection">
+                    <div class = "topCard">
+                        <span class = "question"> Which Jamaican runner is an 11-time world champion and holds the record in the 100 and 200-meter race?</span>
+                        <span class="answer">Usain Bolt. Now, do the pointy thing to the sky he does for getting this right.</span>
+                    </div>
+                    <div class = "topCard">
+                        <span class = "question">Which boxer was known as “The Greatest” and “The People’s Champion”?</span> 
+                        <span class="answer">He's young, he's handsome, and he can't possibly be beat! It's Muhammad Ali!</span>
+                    </div>
+                    <div class = "topCard">
+                        <span class = "question">Which hockey team did Wayne Gretzky play for in the ‘80s? </span>
+                        <span class="answer">Edmonton Oilers, which also happens to be the only years they were relevant!</span>
+                    </div>                                                           
+            </div>
+<!--For whatever reason this thing below is needed or it breaks the website.-->
+            <div class = "clearDiv"></div>
+        </div>
+    </body>
+</html>
