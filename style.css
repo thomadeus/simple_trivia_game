@@ -50,9 +50,12 @@ body{
 
 
 #headerMaster{
-    width: 600px;
-    height: 120px;
-    margin: auto;
+    width: 550px;
+	padding-top: 15px;
+	padding-left: 27px;
+    height: 100px;
+	margin: 0 auto;
+	
 }
 
 .clearDiv{
@@ -103,9 +106,9 @@ body{
     width: 1000px;
     height: auto;
     position: relative;
-    top: 10px;
+
     margin: auto;
-    padding:45px;
+    padding: 20px;
 }
 
 .cardSection {
